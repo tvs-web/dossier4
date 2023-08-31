@@ -8,6 +8,8 @@
 }
 body {
   margin: 0;
+  font-family: roboto;
+
   main {
     width: 100%;
     box-sizing: border-box;
@@ -28,10 +30,10 @@ body {
     box-sizing: border-box;
   }
 }
-.accueil {
-  margin: 0;
-  font-family: roboto;
-}
+// .accueil {
+//   margin: 0;
+//   font-family: roboto;
+// }
 .entete {
   display: grid;
   grid-template-columns: 13% 74% 13%;
