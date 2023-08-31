@@ -6,6 +6,19 @@
   justify-content: center;
   align-items: center;
 }
+body {
+  margin: 0;
+  main {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.125rem;
+  }
+}
 
 @media (max-width: 767.98px) {
   main {
@@ -147,5 +160,77 @@
         color: black;
       }
     }
+  }
+}
+// RESTAURANTS
+.restaurants {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  background: #f6f6f6;
+  box-sizing: border-box;
+  gap: 1.12rem;
+  padding-bottom: 4.12rem;
+  h1 {
+    margin-bottom: 1.5rem;
+    margin-top: 3.38rem;
+    margin-left: 1.25rem;
+  }
+}
+.carte {
+  display: flex;
+  flex-direction: column;
+  // width: 21.25rem;
+  // margin-top: 1.5rem;
+  border-radius: 15px;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  background: white;
+  gap: 1.12rem;
+  img {
+    height: 174px;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .nouveau {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #008766;
+    width: 5rem;
+    height: 1.8125rem;
+    border-radius: 0.125rem;
+    background: var(--green, #99e2d0);
+    /* Shadow/Badge */
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    right: 0.75rem;
+    top: 0.81rem;
+    text-align: center;
+  }
+  .legende {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.81rem;
+  }
+  .blabla {
+    width: 70%;
+  }
+  .coeur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
   }
 }
