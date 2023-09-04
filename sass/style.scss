@@ -288,9 +288,7 @@ body {
         -webkit-background-clip: text;
         -webkit-text-fill-color: rgba(0, 0, 0, 0);
         background-image: linear-gradient(182deg, #9356dc 0%, #ff79da 100%);
-        &not:hover {
-          transition: 0.5s ease-in-out;
-        }
+
         &:active {
           transform: scale(2);
           background-clip: text;
